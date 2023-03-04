@@ -31,7 +31,7 @@ const Projects = () => {
         <h3 className="title">Featured projects</h3>
         <h4 className="sub-title">Some of the things I've built</h4>
         <div className="projects-box">
-          {featured.slice(0, 4).map((project) => (
+          {featured.slice(2).map((project) => (
             <Sample
               key={project.id}
               name={project.name}

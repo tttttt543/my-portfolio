@@ -1,4 +1,4 @@
-import { Manage, TipCalculator, EvoGym, darFi } from '@static/images';
+import { Manage, TipCalculator, EvoGym, darFi, hookbank, huddle, advice, blogr } from '@static/images';
 
 export const featured: {
   id: string;
@@ -46,27 +46,13 @@ export const featured: {
     image: TipCalculator,
   },
   {
-    id: 'adviceGenerator',
-    name: 'Advice Generator App',
-    info: 'The sole purpose of this app is to shake it! Oh, and to provide you with a random advice everytime you click the dice button. Check it out! 🔮',
-    stack: ['HTML', 'SCSS', 'JavaScript', 'API'],
-    code: 'https://github.com/rwxdan/advice-generator-app',
-    live: 'https://rwxdan.github.io/advice-generator-app',
-  },
-  {
-    id: 'pydownloader',
-    name: 'YT PyDownloader',
-    info: 'GUI YT Downloader written in Python, this app lets you download videos (or their audio only) from youtube quickly and easy. Use with caution 🐍',
-    stack: ['Python'],
-    code: 'https://github.com/rwxdan/yt-pydownloader',
-  },
-  {
     id: 'hoobank',
     name: 'Hoobank',
     info: 'Prototype landing page for HooBank, a GPT-3 futuristic platform. Mobile-friendly, has beautiful colors and a very well-constructed layout 🦾',
     stack: ['PostCSS', 'ReactJS', 'TailwindCSS'],
     code: 'https://github.com/rwxdan/hoobank',
     live: 'https://hoobank-rwxdan.vercel.app/',
+    image: hookbank,
   },
   {
     id: 'huddleExtended',
@@ -75,6 +61,16 @@ export const featured: {
     stack: ['HTML', 'SCSS'],
     code: 'https://github.com/rwxdan/huddle-landing-page-extended',
     live: 'https://rwxdan.github.io/huddle-landing-page-extended/',
+    image: huddle,
+  },
+  {
+    id: 'adviceGenerator',
+    name: 'Advice Generator App',
+    info: 'The sole purpose of this app is to shake it! Oh, and to provide you with a random advice everytime you click the dice button. Check it out! 🔮',
+    stack: ['HTML', 'SCSS', 'JavaScript', 'API'],
+    code: 'https://github.com/rwxdan/advice-generator-app',
+    live: 'https://rwxdan.github.io/advice-generator-app',
+    image: advice,
   },
   {
     id: 'blogr',
@@ -83,29 +79,6 @@ export const featured: {
     stack: ['ReactJS', 'TailwindCSS', 'Vite'],
     code: 'https://github.com/rwxdan/blogr-landing-page',
     live: 'https://rwxdan-blogr-lp.netlify.app/',
-  },
-  {
-    id: 'dragonRepeller',
-    name: 'Dragon Repeller',
-    info: 'A fun and interactive game where you have to defeat a dragon that is preventing people from leaving the town! 👾',
-    stack: ['HTML', 'CSS', 'JavaScript'],
-    code: 'https://github.com/rwxdan/dragon-repeller-minigame',
-    live: 'https://rwxdan.github.io/dragon-repeller-minigame',
-  },
-  {
-    id: 'orderSummary',
-    name: 'Order Summary Component',
-    info: "Concept for a central component with a really nice design all across the page, it's responsive and reusable! 🧩",
-    stack: ['HTML', 'SCSS'],
-    code: 'https://github.com/rwxdan/order-summary-component',
-    live: 'https://rwxdan.github.io/order-summary-component',
-  },
-  {
-    id: 'newsHomepage',
-    name: 'News Homepage',
-    info: 'Concept landing page which has a lot of grid action throughout, it has a fully responsive and dynamic layout! 📰',
-    stack: ['ReactJS', 'SCSS', 'Vite'],
-    code: 'https://github.com/rwxdan/news-homepage',
-    live: 'https://news-homepage-nu-ashy.vercel.app/',
+    image: blogr,
   },
 ];

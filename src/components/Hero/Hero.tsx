@@ -1,7 +1,7 @@
 import { animated, useSpring } from '@react-spring/web';
 import { Button } from '@/components';
 import './hero.css';
-import { Me } from '@static/images';
+// import { Me } from '@static/images';
 const Hero = () => {
   const isMobile = window.innerWidth < 800;
   let firstBoot;
@@ -43,30 +43,17 @@ const Hero = () => {
         <div className="text-box">
           <p className="hello-world">Hello, World!</p>
           <animated.h1 style={firstBoot} className="title">
-            I'm <br className="break" /> <span className="name">Daniel Castro</span>
+            I'm <br className="break" /> <span className="name">Yamada Tetsuo</span>
           </animated.h1>
           <animated.div style={secondBoot}>
-            <h2 className="sub-title">I build things for the client-side of the Web.</h2>
+            <h2 className="sub-title">I build things for the Web.</h2>
             <p className="intro">
-              I'm a Frontend developer committed to create functional and aesthetically pleasing Web Applications.{' '}
+              I'm a Full Stack Developer committed to create functional and aesthetically pleasing Web Applications.{' '}
               <span className="status">I'm currently looking for new opportunities!</span>
             </p>
             <Button title="See My Projects" link="#projects" />
           </animated.div>
         </div>
-        <animated.div style={firstBoot} className="image-box">
-          <div className="wrapper">
-            <div className="image-wrapper">
-              <div className="background"></div>
-              <img src={Me} alt="Daniel Castro" className="profile" />
-            </div>
-            <div className="tag-box">
-              <p className="tag">
-                It's me, rwxdan! <span className="wave">👋</span>{' '}
-              </p>
-            </div>
-          </div>
-        </animated.div>
       </div>
     </section>
   );

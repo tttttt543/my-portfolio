@@ -40,7 +40,7 @@ const Nav = () => {
         <div className="nav-logo-box">
           <a href={`${window.location.origin}`} onClick={() => window.location.reload} className="nav-logo-box">
             <img src={Logo} alt="rwxdan" className="nav-logo-icon" />
-            <p className="nav-logo-text">|rwxdan</p>
+            <p className="nav-logo-text">|wendy</p>
           </a>
         </div>
         <div>

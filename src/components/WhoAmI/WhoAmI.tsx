@@ -31,9 +31,8 @@ const WhoAmI = () => {
         <div className="text-box">
           <h3 className="title">About</h3>
           <p className="text">
-            My name is Daniel. I'm a frontend web developer based in Venezuela. I'm{' '}
-            <span className="bold">passionate</span> about cutting-edge, pixel-perfect, responsive user interfaces, and
-            dynamic user experiences.{' '}
+            My name is Yamada. I'm a Full Stack developer. I'm <span className="bold">passionate</span> about
+            cutting-edge, pixel-perfect, responsive user interfaces, and dynamic user experiences.{' '}
           </p>
 
           <p className="text">
